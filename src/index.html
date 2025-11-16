@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="application-name" content="Abhinav Profile" lang="en">
+    <!-- TODO: Make the server htttps-->
+
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src https:"> -->
+    <meta name="author" content="Abhinav Adhikari">
+    <meta name="color-scheme" content="dark light">
+    <meta name="description" content="Portfolio page of Abhinav Adhikari, a software developer">
+    <meta name="keywords" content="developer protfolio">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, viewport-fit=contain">
+    <title>Abhinav Adhikari</title>
+    <link href="styles/output.css" rel="stylesheet">
+</head>
+
+<body class="p-5 not-dark:bg-[#edecfe] dark:bg-[#020113] not-dark:text-[#03011e] dark:text-[#e3e1fe]">
+    <div class="flex flex-row text-3xl justify-between mb-3">
+        <div class="">
+            <a href=".">
+                Abhinav
+            </a>
+        </div>
+        <div class="sm:flex sm:flex-row">
+            <div><img class="sm:hidden" src="./assets/menu.svg" class="aspect-square" width="42"></div>
+            <ul class="sm:flex hidden">
+                <li>
+                    <a href="cv.md">
+                        CV
+                    </a>
+                </li>
+                <li>
+                    <a href="./blog">
+                        Blog
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <img src="./assets/profile.png" class="rounded-2xl">
+    <div class="text-2xl">Hello I'm Abhinav Adhikari</div>
+    <div>Computer Science @ Kathamandu University</div>
+    <div class="mt-5">Skills</div>
+    <div class="m-5 flex flex-wrap gap-1 mb-2">
+        <span class="dark:bg-[#76058f] p-2 rounded-full text-xs lg:text-sm px-3">JavaScript</span>
+        <span class="dark:bg-[#76058f] p-2 rounded-full text-xs lg:text-sm">TypeScript</span>
+        <span class="dark:bg-[#76058f] p-2 rounded-full text-xs lg:text-sm px-3">C</span>
+        <span class="dark:bg-[#76058f] p-2 rounded-full text-xs lg:text-sm">Python</span>
+        <span class="dark:bg-[#76058f] p-2 rounded-full text-xs lg:text-sm">Flutter</span>
+        <span class="dark:bg-[#76058f] p-2 rounded-full text-xs lg:text-sm">Android</span>
+        <span class="dark:bg-[#76058f] p-2 rounded-full text-xs lg:text-sm">Tailwind CSS</span>
+        <span class="dark:bg-[#76058f] p-2 rounded-full text-xs lg:text-sm">Node</span>
+    </div>
+
+    <div>Project</div>
+    <div>
+        Telemedical
+        <div>
+            A telemedical app written in Flutter. It uses WebRTC to connect doctors and patient.
+        </div>
+    </div>
+</body>
+
+</html>
