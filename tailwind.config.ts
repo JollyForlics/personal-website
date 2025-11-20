@@ -19,6 +19,13 @@ module.exports = {
       normal: '400',
       bold: '700',
     },
+    colors: {
+      'text': '#e3e1fe',
+      'background': '#020113',
+      'primary': '#1608dd',
+      'secondary': '#76058f',
+      'accent': '#b70699',
+    },
     extend: {
     },
   },
