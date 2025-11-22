@@ -14,22 +14,22 @@
     <meta name="keywords" content="developer protfolio">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, viewport-fit=contain">
     <title>Abhinav Adhikari</title>
-    <link href="styles/output.css" rel="stylesheet">
+    <link href="styles/index/output.css" rel="stylesheet">
 </head>
 
-<body class="p-5 not-dark:bg-[#edecfe] dark:bg-[#020113] not-dark:text-[#03011e] dark:text-[#e3e1fe]">
-    <div class="flex flex-row justify-between mb-3">
-        <div class="animate-pulse text-4xl">
+<body class="p-5 not-dark:bg-white dark:bg-gray-900 not-dark:text-gray-900 dark:text-gray-100">
+    <div class="flex flex-row justify-between mb-6 items-center">
+        <div class="animate-pulse text-3xl text-indigo-500 dark:text-indigo-400">
             <a href=".">
                 Abhinav
             </a>
         </div>
-        <div class="transition-all duration-1000 ease-in-out transition-discrete">
+        <div class="transition-all duration-200 ease-in-out transition-discrete">
             <div class="sm:flex sm:flex-row">
                 <img class="sm:hidden block transition duration-30 ease-in-out hover:scale-110 active:scale-110"
                     id="menu-toggle" width="45" src="./assets/menu.svg">
             </div>
-            <ul class="sm:flex invisible absolute right-1 dark:bg-[#020113] border-2 border-[#9589ec] sm:border-0"
+            <ul class="sm:flex invisible absolute right-6 dark:bg-gray-800 border-2 border-gray-300 dark:border-gray-700 rounded-lg sm:border-0 sm:visible gap-3"
                 id="menu">
                 <li class='p-1'>
                     <a href="cv.md">
@@ -46,27 +46,58 @@
         </div>
     </div>
 
-    <div class="text-2xl">Hello, I'm Abhinav Adhikari</div>
-    <div>Computer Science @ Kathamandu University</div>
-    <div class="mt-5 text-2xl">Skills</div>
-    <div class="m-5 flex flex-wrap gap-1 mb-2">
-        <span class="dark:bg-[#76058f] p-2 rounded-full text-xs lg:text-sm">JavaScript</span>
-        <span class="dark:bg-[#76058f] p-2 rounded-full text-xs lg:text-sm">TypeScript</span>
-        <span class="dark:bg-[#76058f] p-2 rounded-full text-xs lg:text-sm px-3">C</span>
-        <span class="dark:bg-[#76058f] p-2 rounded-full text-xs lg:text-sm">Python</span>
-        <span class="dark:bg-[#76058f] p-2 rounded-full text-xs lg:text-sm">Flutter</span>
-        <span class="dark:bg-[#76058f] p-2 rounded-full text-xs lg:text-sm">Android</span>
-        <span class="dark:bg-[#76058f] p-2 rounded-full text-xs lg:text-sm">Tailwind CSS</span>
-        <span class="dark:bg-[#76058f] p-2 rounded-full text-xs lg:text-sm">Node</span>
+    <div class="mb-10">
+        <div class="text-2xl">Hello, I'm Abhinav Adhikari</div>
+        <div>Computer Science @ Kathamandu University</div>
+    </div>
+    <div class="mb-6">
+        <div class="mt-5 text-3xl pb-4">Skills</div>
+        <div class="flex flex-wrap gap-3 text-sm">
+            <span
+                class="bg-indigo-100 text-indigo-800 dark:bg-indigo-900 dark:text-indigo-300 px-4 py-2 rounded-3xl shadow-sm hover:shadow-md transition">
+                JavaScript
+            </span>
+            <span
+                class="bg-indigo-100 text-indigo-800 dark:bg-indigo-900 dark:text-indigo-300 px-4 py-2 rounded-3xl shadow-sm hover:shadow-md transition">
+                TypeScript
+            </span>
+            <span
+                class="bg-indigo-100 text-indigo-800 dark:bg-indigo-900 dark:text-indigo-300 px-4 py-2 rounded-3xl shadow-sm hover:shadow-md transition">
+                C
+            </span>
+            <span
+                class="bg-indigo-100 text-indigo-800 dark:bg-indigo-900 dark:text-indigo-300 px-4 py-2 rounded-3xl shadow-sm hover:shadow-md transition">
+                Python
+            </span>
+            <span
+                class="bg-indigo-100 text-indigo-800 dark:bg-indigo-900 dark:text-indigo-300 px-4 py-2 rounded-3xl shadow-sm hover:shadow-md transition">
+                Flutter
+            </span>
+            <span
+                class="bg-indigo-100 text-indigo-800 dark:bg-indigo-900 dark:text-indigo-300 px-4 py-2 rounded-3xl shadow-sm hover:shadow-md transition">
+                Android
+            </span>
+            <span
+                class="bg-indigo-100 text-indigo-800 dark:bg-indigo-900 dark:text-indigo-300 px-4 py-2 rounded-3xl shadow-sm hover:shadow-md transition relative">
+                Kotlin
+            </span>
+            <span
+                class="bg-indigo-100 text-indigo-800 dark:bg-indigo-900 dark:text-indigo-300 px-4 py-2 rounded-3xl shadow-sm hover:shadow-md transition">
+                Tailwind CSS
+            </span>
+            <span
+                class="bg-indigo-100 text-indigo-800 dark:bg-indigo-900 dark:text-indigo-300 px-4 py-2 rounded-3xl shadow-sm hover:shadow-md transition">
+                Node.js
+            </span>
+        </div>
     </div>
 
     <div class="text-2xl pb-4" pb-4>Projects</div>
     <div class='border-2'>
-
         <span class="text-2xl">Telemedical</span>
         <img src="assets/telemedical-project.png">
         <div class="text-sm">
-            A telemedical app written in Flutter. It uses WebRTC to connect doctors and patient.
+            A <b>telemedical</b> app written in <b>Flutter</b>. It uses <b>WebRTC</b> to connect doctors and patient.
         </div>
     </div>
 </body>
